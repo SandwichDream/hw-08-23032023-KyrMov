@@ -7,3 +7,6 @@
     color: white;
     background-color: darkolivegreen;
 }
+.my-li{
+    display: block;
+}
