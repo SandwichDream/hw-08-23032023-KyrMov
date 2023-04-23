@@ -42,5 +42,13 @@ window.onload = ()=>{
     // Додаткова робота
     // 5) За допомогою js створіть фрагмент з розміткою і виведіть в нього інформацію з массива, для вивода інформації можете використати  готові класи підключивши bootstrap
 
+    let ul = document.createElement("ul");
+    let arr = ["Name","Lastname","Age","Skills","Goals","Success"]
+    document.body.appendChild(ul);
+    for(let i = 0; i < arr.length; i++){
+        let li = document.createElement("li");
+        li.innerHTML = arr[i];
+        ul.appendChild(li);
+    }
 
 }
